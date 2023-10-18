@@ -1,0 +1,99 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* font-family: 'Allura', cursive;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Lato', sans-serif; */
+
+
+/* RESETS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: rgb(171, 181, 150);
+    --secondary-color: rgb(133, 133, 133);  
+    --light-color: rgb(255, 255, 255); 
+    --dark-color: rgb(47, 47, 47);
+    --text-dark-color: rgb(77, 77, 77);
+    --text-light-color: rgb(153, 153, 153);
+    --title-color: rgb(153, 153, 153);
+    --warm-light-color:rgb(238, 237, 235);
+
+
+
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* GENERALS */
+
+body {
+    position: relative;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+.title {
+    font-family: 'Allura', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--title-color);
+}
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 82px;
+    font-weight: 700;
+    color: var(--dark-color);
+}
+.main_parag{
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--text-dark-color);
+}
+.btn__primary{
+    width: 167px;
+    height: 53px;
+    background: var(--primary-color);
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    font-weight: 600;
+    font-size: 15.5px;
+    letter-spacing:  0.77px;
+    line-height: 18.5px;
+    color: var(--warm-light-color);
+}
+.btn__secondary{
+    width: 167px;
+    height: 53px;
+    background: none;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    font-weight: 600;
+    font-size: 15.5px;
+    letter-spacing:  0.77px;
+    line-height: 18.5px;
+    color: var(--primary-color);
+    border: solid 1px var(--primary-color);
+}
+

@@ -1,0 +1,25 @@
+@import url(general.css);
+
+/* HEADER */
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 15px;
+}
+
+.nav__links {
+    display: flex;
+    gap: 30px;    
+}
+
+.nav__links a{
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.nav__cos_net_w {
+    display: flex;
+    gap: 30px;
+}
