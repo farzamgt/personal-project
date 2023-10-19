@@ -37,6 +37,7 @@ font-family: 'Lato', sans-serif; */
 
 body {
     position: relative;
+    background-color: var(--warm-light-color);
 }
 
 img {
@@ -54,46 +55,67 @@ a {
 }
 .title {
     font-family: 'Allura', cursive;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 400;
     color: var(--title-color);
+    margin-top: 50px;
 }
 h1{
     font-family: 'Cormorant Garamond', serif;
-    font-size: 82px;
+    font-size: 58px;
     font-weight: 700;
     color: var(--dark-color);
+    margin-top: 50px;
 }
 .main_parag{
     font-size: 19px;
     font-weight: 400;
+    line-height: 30.4px;
     color: var(--text-dark-color);
+    margin: 0;
 }
 .btn__primary{
     width: 167px;
-    height: 53px;
+    height: 50px;
     background: var(--primary-color);
     justify-content: center;
     display: grid;
     align-items: center;
     font-weight: 600;
-    font-size: 15.5px;
+    font-size: 14px;
     letter-spacing:  0.77px;
     line-height: 18.5px;
     color: var(--warm-light-color);
 }
 .btn__secondary{
     width: 167px;
-    height: 53px;
+    height: 50px;
     background: none;
     justify-content: center;
     display: grid;
     align-items: center;
     font-weight: 600;
-    font-size: 15.5px;
+    font-size: 14px;
     letter-spacing:  0.77px;
     line-height: 18.5px;
     color: var(--primary-color);
-    border: solid 1px var(--primary-color);
+    border: solid 2px var(--primary-color);
+}
+
+.larg_text {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 42px;
+    color: var(--dark-color);
+    margin-top: 15px;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 29px;
+    color: var(--text-light-color);
+    margin-top: 25px;
 }
 

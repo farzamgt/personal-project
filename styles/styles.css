@@ -23,3 +23,50 @@
     display: flex;
     gap: 30px;
 }
+
+.container {
+    padding: 90px 24px;
+}
+
+/* Banner */
+
+h1 {
+    margin: 20px 0;
+    line-height: 58px;
+}
+.banner__main_parag {
+    margin: 40px 0;
+}
+.banner__btn {
+    margin: 10px;
+    display: grid;
+    justify-items: left;
+    align-items: start;
+    gap: 20px;
+}
+
+/* About */
+.about__container {
+    background-image: url(../images/bg-about.svg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about__img {
+    width: 100%;
+}
+.about__img img {
+    width: 272px;
+    height: 272px;
+}
+.about__btn {
+    display: flex;
+    width: 80%;
+    margin-top: 50px;
+    gap: 5px;
+    padding: 0px 10px;
+}
+
+
