@@ -56,6 +56,7 @@ h1 {
 }
 .about__img {
     width: 100%;
+    margin-bottom: 50px;
 }
 .about__img img {
     width: 272px;
@@ -63,10 +64,47 @@ h1 {
 }
 .about__btn {
     display: flex;
-    width: 80%;
+    width: 218px;
     margin-top: 50px;
     gap: 5px;
     padding: 0px 10px;
 }
+
+/* Books */
+.books__larg_text {
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    line-height: 36.4px;
+    margin: 30px 0;
+}
+.books__description {
+    padding: 15px 0;
+}
+.books__inner_container_card {
+    display: grid;
+    margin: 0 auto;
+}
+.books__inner_container_card .cart {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.books__inner_container_card .cart img {
+    margin: 20px auto;
+}
+
+.books__inner_container_card .cart .cart__title {
+    font-size: 22px;
+    font-weight: 700;  
+    color: var(--dark-color);
+    margin: 0 auto;
+}
+
+.books__inner_container_card .cart a {
+    margin: 0 auto;
+}
+
 
 
