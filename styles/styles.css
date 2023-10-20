@@ -132,6 +132,14 @@ h1 {
 }
 
 /*  Lastest */
+.lastest__container {
+    width: 100%;
+    height: auto;
+    background-image: url(../images/img-lastest-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
 .lastest__larg_text {
     font-size: 58px;
     line-height: 58px;
@@ -145,7 +153,8 @@ h1 {
 .l_data {
     margin: 0;
 }
-.lastest_quastion {
+
+.lastest__quastion {
     color: var(--text-dark-color);
     font-size: 19px;
     line-height: 30.4px;
@@ -175,4 +184,44 @@ h1 {
     height: 2px;
     width: 15px;
     margin: 5px
+}
+
+/* Tender */
+.intro__large_text {
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    margin: 0 0 20px 0;
+    line-height: 36px;
+}
+.tender__links_card {
+    display: inline-flex;
+    overflow: scroll;
+    width: 100%;
+    gap: 26px;
+    padding: 0 15px;
+}
+.tender__links_card .cart {
+    display: grid;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.tender__links_card .cart .icon{
+    color: var(--text-light-color);
+    font-size: xx-large;
+    font-weight: 600;
+}
+.tender__links_card .cart p {
+    width: 60vw;
+    margin-right: 40px;
+}
+.tender__links_card .cart .cart_title{
+    margin: 15px 0;
+    font-size: 19px;
+    color: var(--dark-color);
+}
+.tender__links_card .cart .h_line {
+    height: 3.5px;
+    width: 30px;
+    margin: 0 0 10px 0;
 }
