@@ -106,5 +106,73 @@ h1 {
     margin: 0 auto;
 }
 
+/*  Testamonial  */
+.testimonials__main_parag {
+    margin-top: 30px;
+}
+.testimonials__card {
+    display: grid;
+}
+.testimonials__card .cart  {
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+}
+.testimonials__card .cart img {
+    width: 70px;
+    height: 70px;
+}
+.testimonials__card .cart .cart__text .cart__title{
+    font-size: 22px;
+}
+.testimonials__card .cart .cart__text .cart_parag {
+    margin-top: 10px;
+    font-style: italic;
+    line-height: 27px;
+}
 
+/*  Lastest */
+.lastest__larg_text {
+    font-size: 58px;
+    line-height: 58px;
+}
+.lastest__data {
+    display: grid;
+    gap: 0px;
+    margin: 45px 0px;
+}
 
+.l_data {
+    margin: 0;
+}
+.lastest_quastion {
+    color: var(--text-dark-color);
+    font-size: 19px;
+    line-height: 30.4px;
+    margin-bottom: 30px;
+}
+
+/* Quotes */
+.quotes__container {
+    padding: 70px 24px;
+}
+.quotes__larg_text {
+    padding: 0px 65px;
+    font-style: italic;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.quotes__autor {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.quotes__h_line {
+    height: 2px;
+    width: 15px;
+    margin: 5px
+}
