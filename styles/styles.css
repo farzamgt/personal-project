@@ -29,6 +29,14 @@
 }
 
 /* Banner */
+.banner__container {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../images/img-banner-2.png);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
 
 h1 {
     margin: 20px 0;
