@@ -1,0 +1,61 @@
+@media (min-width: 750px) {
+
+    .container {
+        padding: 100px 32px;
+    }
+
+    /* Banner */
+    .banner__container {
+        background-image: url(../images/img-banner-2.png);
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .banner__main_parag {
+        width: 	40%;
+    }
+
+    /* Books */
+    .books__inner_container_texts {
+        display: flex;
+        gap: 20px;
+    }
+    .books__intro {
+        width: 50%;
+    }
+    .books__description {
+        width: 50%;
+        margin-top: -50px;
+    }
+    .books__inner_container_card {
+        grid-template-columns: repeat(2, 2fr);
+        margin-top: 20px;
+    }
+
+    /* Lastes */
+    .lastest__larg_text {
+        width: 55%;
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .lastest__inner_box {
+        display: flex;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .lastest__data {
+        width: 15%;
+        margin-top: 700px;
+    }
+    .lastest__box_text {
+        width: 40%;
+    }
+
+    /* quotes */
+    .quotes__larg_text {
+        font-size: 38px;
+        line-height: 51px;
+        font-weight: 700;
+    }
+}
