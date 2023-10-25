@@ -6,11 +6,11 @@
 
     /* Banner */
     .banner__container {
-        background-image: url(../images/img-banner-2.png);
+        background-image: url(../images/img-banner-bg.png);
         width: 100%;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-        background-position: right;
+        background-position: center;
     }
     .banner__main_parag {
         width: 	40%;
@@ -58,4 +58,52 @@
         line-height: 51px;
         font-weight: 700;
     }
+
+    /* Tender */
+    .tender__top_box {
+        display: flex;
+        gap: 40px;
+    }
+    .intro {
+        width: 50%;
+    }
+    .text {
+        width: 50%;
+    }
+
+    /* Order */
+    .order_box__container {
+        padding: 50px 32px;
+        margin: 50px 32px;
+    }
+    .order_box__larg_text {
+        font-size: 46px;
+        width: 75%;
+        line-height: 55px;
+    }
+    .order_box__btn {
+        display: flex;
+    }
+
+    /* Press */
+    .press__box {
+        display: flex;
+        gap: 20px;
+    }
+    .press__larg_text {
+        font-size: 46px;
+    }
+    .press__intro {
+        width: calc(100% / 3);
+    }
+    .press__links {
+        width: calc(100% / 3);
+    }
+    .press__img {
+        width: calc(100% / 3);
+    }
+    .link:last-child {
+        border-bottom: none;
+    }
+    
 }
