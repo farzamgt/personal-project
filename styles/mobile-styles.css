@@ -121,7 +121,7 @@ h1 {
 .testimonials__card .cart  {
     display: flex;
     margin-top: 50px;
-    gap: 20px;
+    gap: 15px;
 }
 .testimonials__card .cart img {
     width: 70px;
@@ -129,6 +129,7 @@ h1 {
 }
 .testimonials__card .cart .cart__text .cart__title{
     font-size: 22px;
+    margin-top: 15px;
 }
 .cart__parag {
     margin-top: 10px;
@@ -137,6 +138,14 @@ h1 {
 }
 
 /*  Lastest */
+.lastest__container {
+    background-image: url(../images/bg-lastest.jpg);
+    background-position-x: 64%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
 .lastest__larg_text {
     font-size: 58px;
     line-height: 58px;
@@ -230,6 +239,7 @@ h1 {
     align-items: center;
     justify-items: center;
     padding: 50px 24px;
+
 }
 .order_box__larg_text {
     text-align: center;
@@ -341,7 +351,7 @@ h1 {
 /* Join */
 .join__container {
     background-color: var(--bg-light-color);
-    margin: 100px 25px;
+    margin: 100px 24px;
     display: grid;
     align-items: center;
     justify-items: center;
