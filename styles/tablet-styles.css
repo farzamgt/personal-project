@@ -16,6 +16,11 @@
         width: 	40%;
     }
 
+    /* About */
+    .about__img {
+        width: 75%;
+    }
+
     /* Books */
     .books__inner_container_texts {
         display: flex;
@@ -33,6 +38,12 @@
         margin-top: 20px;
     }
 
+    /* Testimonials */
+    .testimonials__card .cart img {
+        width: 120px;
+        height: 120px;
+    }
+
     /* Lastes */
     .lastest__larg_text {
         width: 55%;
@@ -46,7 +57,7 @@
     }
     .lastest__data {
         width: 15%;
-        margin-top: 700px;
+        margin-top: 710px;
     }
     .lastest__box_text {
         width: 40%;
@@ -158,21 +169,73 @@
     .blog__larg_text {
         font-size: 46px;
     }
-    .blog__intro-text {
+    
+    .blog__cart_top {
+        background-image: url(../images/img-blog-top-2.png);
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .blog__cart_bottom {
+        background-image: url(../images/img-blog-bottom-2.png);
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .cart_top {
         width: 50%;
     }
-    .cart_top{
-        background-image: url(../images/img-blog-top.png);
-        width: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
     .cart_bottom {
-        background-image: url(../images/img-blog-bottom.png);
-        width: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+        width: 50%;
+        margin-left: 52%;
+        padding-right: 24px;
     }
+
+    /* Join */
+    .join__container {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 32px;
+        margin: 0 32px;
+    }
+    .join__larg_text {
+        margin-top: 0;
+        font-size: 46px;
+        line-height: 50px;        
+    }
+    .join__intro {
+        width: 55%;
+    }
+    .join form {
+        margin-top: 0;
+        width: 45%;
+    }
+
+    /* Contacts */
+    .contacts__larg_text {
+        font-size: 46px;
+    }
+    .contacts__card {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 50px;
+    }
+    .top_card {
+        padding-bottom: 15px;
+    }
+    .card {
+        margin: 0 15px;
+    }
+
+    /* footer */
+    .footer__container {
+        display: flex;
+        padding: 0 50px;
+    }
+
 }
