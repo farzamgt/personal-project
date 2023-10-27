@@ -1,0 +1,111 @@
+@media (min-width: 1200px) {
+    .container {
+        padding: 100px 40px;
+    }
+    /* Banner */
+    h1 {
+        font-size: 82px;
+        line-height: 90px;
+    }
+
+    /* About  */
+    .about__container {
+        display: flex;
+        gap: 50px;
+    }
+    .about__img {
+        width: 60%;
+    }
+    .about__text {
+        width: 40%;
+        padding: 10px;
+    }
+    .about__larg_text {
+        font-size: 54px;
+        line-height: 60px;
+    }
+    .about__main-parag {
+        margin-top: 70px;
+    }
+
+    /* Books */
+    .books__inner_container_card {
+        display: flex;
+    }
+    .books__inner_container_card .cart {
+        margin-top: 15px;
+        gap: 0;
+    }
+
+    /* testimonials  */
+    .testimonials__larg_text {
+        font-size: 54px;
+        line-height: 60px;
+    }
+
+    /* Lastest */
+    .lastest__larg_text {
+        font-size: 90px;
+        line-height: 85px;
+    }
+    .lastest__data {
+        margin-top: 450px;
+    }
+
+    /* Tender */
+    .intro__large_text {
+        font-size: 32px;
+    }
+
+    /* Order */
+    .order_box__container {
+        margin: 0 auto;
+        width: 1120px;
+        padding: 60px 80px;
+    }
+
+    /* Press */
+    .press__larg_text {
+        font-size: 54px;
+        line-height: 60px;
+    }
+    .press__links {
+        margin-top: -40px;
+    }
+
+    /* Event */
+    .events__larg_text {
+        font-size: 32px;
+    }
+
+    /* Join */
+    .join__container {
+        margin: 0 auto;
+        width: 1120px;
+        padding: 60px 80px;
+    }
+
+    /* Contacts */
+    .contacts__card {
+        display: flex;
+        gap: 10px;
+    }
+    .top_card {
+        display: flex;
+        gap: 10px;
+        width: 50%;
+    }
+    .bottom_card {
+        display: flex;
+        gap: 10px;
+        width: 50%;
+    }
+    .card  {
+        width: 50%;
+    }
+
+    /* Footer */
+    .footer__container {
+        padding: 15px 50px;
+    }
+}

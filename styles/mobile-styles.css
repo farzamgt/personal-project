@@ -420,8 +420,10 @@ h1 {
     margin-top: 0;
 }
 /* Footer */
-.footer__container {
+footer {
     background: var(--primary-color);
+}
+.footer__container {
     display: grid;
     justify-content: center;
     align-items: center;
