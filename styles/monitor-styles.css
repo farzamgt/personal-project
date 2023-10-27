@@ -2,6 +2,11 @@
     .container {
         padding: 100px 40px;
     }
+
+    /* Header */
+    .nav__container {
+        padding: 0 40px;
+    }
     /* Banner */
     h1 {
         font-size: 82px;

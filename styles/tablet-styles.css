@@ -244,6 +244,22 @@
         padding: 80px 40px;
     }
 
+    /* Header */
+    .nav__container {
+        display: flex;
+        height: auto;
+        padding: 0px 40px;
+    }
+    .nav__links {
+        display: flex;
+        gap: 30px;  
+        width: 50%;      
+    }
+    .nav__cosnetw {
+        width: 40%;
+        justify-content: end;
+    }
+
     /* Testimonial */
     .testimonials__card {
         display: flex;
