@@ -176,6 +176,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        padding: 15px;
     }
     .blog__cart_bottom {
         background-image: url(../images/img-blog-bottom-2.png);
@@ -183,6 +184,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        padding: 15px;
     }
     .cart_top {
         width: 50%;
@@ -271,6 +273,9 @@
     }
 
     /* Lastest */
+    .lastest__container {
+        background-position-x: 80%;
+    }
     .lastest__data {
         margin-top: 510px;
     }
