@@ -255,10 +255,11 @@
     }
 
     /* Header */
-    .burger-icon {
+    
+    .nav__burger {
         display: none;
     }
-    .nav__burger {
+    .burger-icon {
         display: none;
     }
     .nav__container {

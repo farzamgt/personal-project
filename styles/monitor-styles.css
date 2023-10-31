@@ -4,6 +4,9 @@
     }
 
     /* Header */
+    .burger-icon {
+        display: none;
+    }
     .nav__container {
         padding: 30px 40px;
     }
