@@ -5,8 +5,9 @@
 
     /* Header */
     .nav__container {
-        padding: 0 40px;
+        padding: 30px 40px;
     }
+    
     /* Banner */
     h1 {
         font-size: 82px;

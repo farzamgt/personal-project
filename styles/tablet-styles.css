@@ -3,6 +3,14 @@
     .container {
         padding: 100px 32px;
     }
+    /* Header */
+    .nav__burger {
+        padding: 65px 100px;
+    }
+    .x-icon {
+        margin: 0;
+        align-items: start;
+    }
 
     /* Banner */
     .banner__container {
@@ -247,15 +255,23 @@
     }
 
     /* Header */
+    .burger-icon {
+        display: none;
+    }
+    .nav__burger {
+        display: none;
+    }
     .nav__container {
         display: flex;
         height: auto;
-        padding: 0px 40px;
+        padding: 20px 0px;
+        background-color: var(--bg-light-color);
     }
     .nav__links {
         display: flex;
         gap: 30px;  
-        width: 50%;      
+        width: 50%;  
+        justify-content: start;    
     }
     .nav__cosnetw {
         width: 40%;
