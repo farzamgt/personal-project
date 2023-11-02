@@ -1,3 +1,4 @@
+// Burger Menu
 const toggleBtn = document.querySelector(".toggel-btn");
 const toggleBtnIcon = document.querySelector(".toggel-btn i");
 const dropDownMenu = document.querySelector(".nav__dropdown");
@@ -10,3 +11,6 @@ toggleBtn.onclick = function () {
       ? 'fa-solid fa-x'
       : 'fa-solid fa-bars'
 };
+
+// Carousel
+

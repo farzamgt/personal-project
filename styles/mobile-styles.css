@@ -256,34 +256,41 @@ h1 {
     display: inline-flex;
     overflow: scroll;
     width: 100%;
-    gap: 26px;
-    padding: 0 15px;
+    height: 350px;
+    margin-top: 40px;
+    padding: 0;
+    border: solid .5px var(--secondary-color);
 }
-.tender__links_card .cart {
+.tender__links_card .card {
     display: grid;
-    width: 100%;
-    height: auto;
-    margin-top: 50px;
+    min-width: 245px;
+    height: 85%;
+    margin: 25px;
+    padding: 20px;
+    border: solid 2px var(--primary-color);
 }
-.tender__links_card .cart .icon{
+.tender__links_card .card .icon{
     color: var(--text-light-color);
     font-size: xx-large;
     font-weight: 600;
+    height: 50px;
+
 }
-.tender__links_card .cart p {
-    width: 60vw;
-    margin-right: 40px;
-    margin-bottom: 35px;
+.tender__links_card .card p {
+    width: 100%;
+    margin: 10px;
 }
-.tender__links_card .cart .cart_title{
-    margin: 15px 0;
+.tender__links_card .card .card_title{
+    margin: 0;
+    height: 40px;
     font-size: 19px;
     color: var(--dark-color);
 }
-.tender__links_card .cart .h_line {
-    height: 3.5px;
-    width: 30px;
+.tender__links_card .card .h_line {
+    height: 2.5px;
+    width: 60px;
     margin: 0 0 10px 0;
+
 }
 
 /* Order */
