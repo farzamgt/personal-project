@@ -3,13 +3,10 @@
     .container {
         padding: 100px 32px;
     }
+    
     /* Header */
-    .nav__burger {
-        padding: 65px 100px;
-    }
-    .x-icon {
-        margin: 0;
-        align-items: start;
+    .nav__container {
+        padding: 20px 32px;
     }
 
     /* Banner */
@@ -255,28 +252,28 @@
     }
 
     /* Header */
-    
-    .nav__burger {
-        display: none;
-    }
-    .burger-icon {
+    .nav__dropdown {
         display: none;
     }
     .nav__container {
+        padding: 40px 45px;
         display: flex;
-        height: auto;
-        padding: 20px 0px;
-        background-color: var(--bg-light-color);
+
     }
-    .nav__links {
+    .nav__container .nav__links,
+    .nav__container .nav__cosnetw {
         display: flex;
-        gap: 30px;  
-        width: 50%;  
-        justify-content: start;    
+        gap: 20px;
+        width: 50%;
     }
-    .nav__cosnetw {
-        width: 40%;
+    .nav__container .nav__links {
+        font-weight: 600;
+    }
+    .nav__container .nav__cosnetw {
         justify-content: end;
+    }
+    .toggel-btn {
+        display: none;
     }
 
     /* Testimonial */

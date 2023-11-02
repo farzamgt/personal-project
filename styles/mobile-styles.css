@@ -1,35 +1,44 @@
 /* HEADER */
+nav {
+    position: relative;
+}
 .nav__container {
+    padding: 10px 24px;
+}
+.nav__container .nav__links,
+.nav__container .nav__cosnetw {
     display: none;
 }
-.nav__burger {
-    display: none;
-    height: 100vh;
-    padding: 0 0 80px;
-}
-.burger-icon {
+.toggel-btn {
     color: var(--dark-color);
     font-size: x-large;
     display: flex;
     justify-content: flex-end;
     justify-items: center;
-    padding: 15px 24px;
-    background-color: var(--bg-light-color);
-}
-.x-icon {
-    color: var(--text-dark-color);
-    font-size: x-large;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    margin-right: 20%;
 }
 .fa-bars:hover,
 .fa-x:hover {
     color: var(--primary-color);
     cursor: pointer;
 }
-.nav__links {
+.nav__dropdown {
+    position: absolute;
+    display: none;
+    padding: 55px;
+    margin: 0 5%;
+    width: 90%;
+    height: 0;
+    background-color: var(--bg-light-color);
+    backdrop-filter: blur(500px);
+    overflow: hidden;  
+    transition: height 0.2s cubic-bezier(0.23, 1, 0.320, 1);  
+    z-index: 99;
+}
+.nav__dropdown.open {
+    display: grid;
+    height: 80vh;    
+}
+.nav__dropdown .nav__links {
     display: grid;
     margin: 0px auto;
     text-align: center;
@@ -50,8 +59,7 @@
     height: 1px;
     background-color: var(--text-dark-color);
     transition: 0.2s; 
-}
-  
+}  
 .nav__links a:hover::after {
     width: 100%;  
  }
@@ -527,6 +535,9 @@ footer {
 @media (min-width: 400px) {
 
     /* Header */
+    .nav__container {
+        padding: 15px 30px;
+    }
     /* Banner */
     .banner__btn {
         display: flex;

@@ -1,17 +1,12 @@
-// Burger menu
-const menuIcon = document.querySelector(".burger-icon");
-const navBurger = document.querySelector(".nav__burger");
-const xIcon = document.querySelector(".x-icon");
+const toggleBtn = document.querySelector(".toggel-btn");
+const toggleBtnIcon = document.querySelector(".toggel-btn i");
+const dropDownMenu = document.querySelector(".nav__dropdown");
 
-function openMenu() {
-    navBurger.style.display = "grid";
-    menuIcon.style.display = "none";
-}
+toggleBtn.onclick = function () {
+    dropDownMenu.classList.toggle('open');
+    const isOpen = dropDownMenu.classList.contains('open');
 
-function closeMenu() {
-    navBurger.style.display = "none";
-    menuIcon.style.display = "flex";   
-}
-
-menuIcon.addEventListener("click", openMenu);
-xIcon.addEventListener("click", closeMenu);
+    toggleBtnIcon.classList = isOpen
+      ? 'fa-solid fa-x'
+      : 'fa-solid fa-bars'
+};

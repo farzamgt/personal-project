@@ -38,7 +38,7 @@ font-family: 'Lato', sans-serif; */
 
 body {
     position: relative;
-    background-color: var(--warm-light-color);
+    background-color: var(--bg-light-color);
     scroll-behavior: smooth;
 }
 
