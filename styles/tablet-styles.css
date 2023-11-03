@@ -265,6 +265,7 @@
         display: flex;
         gap: 20px;
         width: 50%;
+        height: 20px;
     }
     .nav__container .nav__links {
         font-weight: 600;
