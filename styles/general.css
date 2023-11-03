@@ -1,5 +1,4 @@
 /* FONTS */
-
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
@@ -8,9 +7,7 @@
 font-family: 'Cormorant Garamond', serif;
 font-family: 'Lato', sans-serif; */
 
-
 /* RESETS */
-
 * {
     margin: 0;
     padding: 0;
@@ -27,33 +24,28 @@ font-family: 'Lato', sans-serif; */
     --title-color: rgb(153, 153, 153);
     --warm-light-color:rgb(238, 237, 235);
     --bg-light-color: rgba(47, 47, 47, 0.04);
-
-
+    --bg-menu-color: rgba(225, 225, 225);
 
     font-family: 'Lato', sans-serif;
     scroll-behavior: smooth;
 }
 
 /* GENERALS */
-
 body {
     position: relative;
     background-color: var(--bg-light-color);
     scroll-behavior: smooth;
 }
-
 img {
     display: block;
     width: 100%;
 }
-
 .container {
     max-width: 1200px;
     padding: 0;
     margin: 0 auto;
     padding: 90px 24px;
 }
-
 a {
     text-decoration: none;
     cursor: pointer;
@@ -112,18 +104,15 @@ h1{
     transition: background-color 0.2s;
     cursor: pointer;
 }
-
 .btn__primary:hover,
 .btn__secondary:hover {
     color: var(--warm-light-color);
     background-color: var(--dark-color);
     border-color: var(--dark-color);
 }
-
 .more-info:hover {
     text-decoration: underline;
 }
-
 .larg_text {
     font-family: "Cormorant Garamond", serif;
     font-size: 38px;
@@ -132,7 +121,6 @@ h1{
     color: var(--dark-color);
     margin-top: 15px;
 }
-
 p {
     font-size: 17px;
     font-weight: 400;
@@ -140,14 +128,12 @@ p {
     color: var(--text-light-color);
     margin-top: 25px;
 }
-
 .accent_parag {
     color: var(--primary-color);
     font-size: 14px;
     font-weight: 700;
     line-height: 22.4px;
 }
-
 .h_line {
     display: inline-block;
     background-color: var(--primary-color);

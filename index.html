@@ -12,11 +12,11 @@
         <nav>
             <div class="nav__container container">                
                 <div class="nav__links">
-                    <a href="#">About me</a>
-                    <a href="#">Books</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Press</a>
-                    <a href="#">Contacts</a>
+                    <a href="#about">About me</a>
+                    <a href="#books">Books</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#press">Press</a>
+                    <a href="#contacts">Contacts</a>
                 </div>
                 <div class="nav__cosnetw">
                     <a href="#"><i class="fa-brands fa-facebook-f cosnetw_icon"></i></a>
@@ -30,11 +30,11 @@
             </div>
             <div class="nav__dropdown">             
                 <div class="nav__links">
-                    <a href="#">About me</a>
-                    <a href="#">Books</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Press</a>
-                    <a href="#">Contacts</a>
+                    <a href="#about">About me</a>
+                    <a href="#books">Books</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#press">Press</a>
+                    <a href="#contact">Contacts</a>
                 </div>
                 <div class="nav__cosnetw">
                     <a href="#"><i class="fa-brands fa-facebook-f cosnetw_icon"></i></a>
@@ -54,12 +54,12 @@
                 <p class="banner__main_parag main_parag">Welcome to my website. Here you’ll find information about all my books and
                     links to all my social media.</p>
                 <div class="banner__btn">
-                    <a href="#" class="btn__primary">About Me</a>
-                    <a href="#" class="btn__secondary">Buy Books</a>
+                    <a href="#about" class="btn__primary">About Me</a>
+                    <a href="#books" class="btn__secondary">Buy Books</a>
                 </div>
             </div>
         </section>
-        <section class="about">
+        <section id="about" class="about">
             <div class="about__container container">
                 <div class="about__img">
                     <img src="images/img-about.png" alt="Writer">
@@ -73,11 +73,11 @@
                     </p>
                     <p>I believe that sharing knowledge can help both individuals and the marketing industry. Check out my latest book "Walk
                         Proud".</p>
-                    <a href="#" class="about__btn btn__secondary">My Latest Book <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#lastest" class="about__btn btn__secondary">My Latest Book <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </section>
-        <section class="books">
+        <section id="books" class="books">
             <div class="books__container container">
                 <p class="books__title title">Books</p>
                 <div class="books__inner_container_texts">
@@ -95,22 +95,22 @@
                     <div class="cart">
                         <img src="images/img-books-1.jpeg" alt="The book">
                         <h3 class="cart__title">"How to Walk Away"</h3>
-                        <a href="#"><p class="accent_parag more-info">More Info <i class="fa-solid fa-arrow-right"></i></p></a>
+                        <a href="#contacts"><p class="accent_parag more-info">More Info <i class="fa-solid fa-arrow-right"></i></p></a>
                     </div>
                     <div class="cart">
                         <img src="images/img-books-2.jpeg" alt="The book">
                         <h3 class="cart__title">"The World's Game"</h3>
-                        <a href="#"><p class="accent_parag more-info">More Info <i class="fa-solid fa-arrow-right"></i></p></a>
+                        <a href="#contacts"><p class="accent_parag more-info">More Info <i class="fa-solid fa-arrow-right"></i></p></a>
                     </div>
                     <div class="cart">
                         <img src="images/img-books-3.jpeg" alt="The book">
                         <h3 class="cart__title">"Digital Branding"</h3>
-                        <a href="#"><p class="accent_parag more-info">More Info <i class="fa-solid fa-arrow-right"></i></p></a>
+                        <a href="#contacts"><p class="accent_parag more-info">More Info <i class="fa-solid fa-arrow-right"></i></p></a>
                     </div>
                     <div class="cart">
                         <img src="images/img-books-4.jpeg" alt="The book">
                         <h3 class="cart__title">"Learn to be Yourself"</h3>
-                        <a href="#"><p class="accent_parag more-info">More Info <i class="fa-solid fa-arrow-right"></i></p></a>
+                        <a href="#contacts"><p class="accent_parag more-info">More Info <i class="fa-solid fa-arrow-right"></i></p></a>
                     </div>
                 </div>
             </div>
@@ -145,7 +145,7 @@
                 </div>
             </div>
         </section>
-        <section class="lastest">
+        <section id="lastest" class="lastest">
             <div class="lastest__container container">
                 <p class="testimonials__title title">Latest book</p>
                 <h2 class="lastest__larg_text larg_text">The Latest Bestseller <span class="h_line"></span> "Walk Proud"</h2>
@@ -185,45 +185,53 @@
                     <div class="text">
                         <p class="text_parag">The book is sold in most online and offline bookstores in the USA. Still, if you want to receive your copy with my
                             autograph, you can order it right on this website or contact me directly.</p>
-                        <a href="#"><p class="accent_parag more-info">Order Book <i class="fa-solid fa-arrow-right"></i></p></a>                        
+                        <a href="#join"><p class="accent_parag more-info">Order Book <i class="fa-solid fa-arrow-right"></i></p></a>                        
                     </div>
                 </div>
-                <div class="tender__links_card">
-                    <div class="card">
-                        <i class="fa-solid fa-arrows-spin icon"></i>
-                        <h3 class="card_title">Marketers</h3>
-                        <span class="h_line"></span>
-                        <p>To keep in touch with the latest branding strategies and tendencies. </p>
+                <div class="carousel_wrapper">
+                    <div class="carousel_btn left_btn">
+                        <i id="left" class="fa-solid fa-chevron-left"></i> 
                     </div>
-                    <div class="card">
-                        <i class="fa-regular fa-lightbulb icon"></i>                        
-                        <h3 class="card_title">Creative Thinkers</h3>
-                        <span class="h_line"></span>
-                        <p>To learn how effective branding can improve their creative projects. </p>
+                    <div class="tender__links_card">
+                        <div class="card">
+                            <i class="fa-solid fa-arrows-spin icon"></i>
+                            <h3 class="card_title">Marketers</h3>
+                            <span class="h_line"></span>
+                            <p>To keep in touch with the latest branding strategies and tendencies. </p>
+                        </div>
+                        <div class="card">
+                            <i class="fa-regular fa-lightbulb icon"></i>                        
+                            <h3 class="card_title">Creative Thinkers</h3>
+                            <span class="h_line"></span>
+                            <p>To learn how effective branding can improve their creative projects. </p>
+                        </div>
+                        <div class="card">
+                            <i class="fa-solid fa-briefcase icon"></i>                        
+                            <h3 class="card_title">Entrepreneurs</h3>
+                            <span class="h_line"></span>
+                            <p>To learn how to present their businesses and achieve success. </p>
+                        </div>
+                        <div class="card">
+                            <i class="fa-solid fa-user-gear icon"></i>
+                            <h3 class="card_title">Aspiring Professionals</h3>
+                            <span class="h_line"></span>
+                            <p>To ensure they're doing everything right and  get valuable insights. </p>
+                        </div>
+                        <div class="card">
+                            <i class="fa-solid fa-users icon"></i>
+                            <h3 class="card_title">Business Leaders</h3>
+                            <span class="h_line"></span>
+                            <p>To help them lead and represent themselves more effectively. </p>
+                        </div>
+                        <div class="card">
+                            <i class="fa-solid fa-building icon"></i>
+                            <h3 class="card_title">Companies</h3>
+                            <span class="h_line"></span>
+                            <p>To help make web presence unique to stand out from the crowd. </p>
+                        </div>
                     </div>
-                    <div class="card">
-                        <i class="fa-solid fa-briefcase icon"></i>                        
-                        <h3 class="card_title">Entrepreneurs</h3>
-                        <span class="h_line"></span>
-                        <p>To learn how to present their businesses and achieve success. </p>
-                    </div>
-                    <div class="card">
-                        <i class="fa-solid fa-user-gear icon"></i>
-                        <h3 class="card_title">Aspiring Professionals</h3>
-                        <span class="h_line"></span>
-                        <p>To ensure they're doing everything right and  get valuable insights. </p>
-                    </div>
-                    <div class="card">
-                        <i class="fa-solid fa-users icon"></i>
-                        <h3 class="card_title">Business Leaders</h3>
-                        <span class="h_line"></span>
-                        <p>To help them lead and represent themselves more effectively. </p>
-                    </div>
-                    <div class="card">
-                        <i class="fa-solid fa-building icon"></i>
-                        <h3 class="card_title">Companies</h3>
-                        <span class="h_line"></span>
-                        <p>To help make web presence unique to stand out from the crowd. </p>
+                    <div class="carousel_btn right_btn">
+                        <i id="right" class="fa-solid fa-chevron-right"></i> 
                     </div>
                 </div>
             </div>
@@ -235,12 +243,12 @@
                 <p class="order__main_parag main_parag">Read my book to get to know how to take control of your life and your image, to achieve personal
                     and professional success, and to learn how to always be on top.</p>
                 <div class="order_box__btn">
-                    <a href="#" class="btn__primary">Order Now</a>
-                    <a href="#" class="btn__secondary">Learn more</a>
+                    <a href="#join" class="btn__primary">Order Now</a>
+                    <a href="#blog" class="btn__secondary">Learn more</a>
                 </div>
             </div>
         </section>
-        <section class="press">
+        <section id="press" class="press">
             <div class="press__container container">
                 <p class="press__title title">Press Reviews</p>
                 <div class="press__box">
@@ -251,31 +259,30 @@
                             want the audience to continue reading your book, you have no choice but to make the first.</p>
                         <p>It may sound too simple: sit down and write. You may say, 'Hey, Antoine, but I don't have a single idea how to begin
                             my book', but the trick is...</p>
-                        <a href="#"><p class="accent_parag more-info">All Reviews <i class="fa-solid fa-arrow-right"></i></p></a>
+                        <a href="#join"><p class="accent_parag more-info">All Reviews <i class="fa-solid fa-arrow-right"></i></p></a>
                     </div>
                     <div class="press__links">
                         <div class="link">
-                            <a href="#"><h3 class="cart_title more-info">The Wall Street Journal <i class="fa-solid fa-arrow-right"></i></i></h3></a>
+                            <a href="#blog"><h3 class="cart_title more-info">The Wall Street Journal <i class="fa-solid fa-arrow-right"></i></i></h3></a>
                             <p>Branding or Failing: Choose Wisely.</p>
                         </div>
                         <div class="link">
-                            <a href="#"><h3 class="cart_title more-info">Fortune <i class="fa-solid fa-arrow-right"></i></h3></a>
+                            <a href="#blog"><h3 class="cart_title more-info">Fortune <i class="fa-solid fa-arrow-right"></i></h3></a>
                             <p>"Walk Proud": A Stunning Book on Branding.</p>
                         </div>
                         <div class="link">
-                            <a href="#"><h3 class="cart_title more-info">Forbes <i class="fa-solid fa-arrow-right"></i></i></h3></a>
+                            <a href="#blog"><h3 class="cart_title more-info">Forbes <i class="fa-solid fa-arrow-right"></i></i></h3></a>
                             <p>Branding for Dummies or Not? Book Review.</p>
                         </div>
                         <div class="link">
-                            <a href="#"><h3 class="cart_title more-info">Esquire <i class="fa-solid fa-arrow-right"></i></h3></a>
+                            <a href="#blog"><h3 class="cart_title more-info">Esquire <i class="fa-solid fa-arrow-right"></i></h3></a>
                             <p>How to Post Wisely and Walk Proud.</p>
                         </div>
                     </div>
                     <div class="press__img">
                         <img src="images/img-press.png" alt="magazines"> 
                     </div>                   
-                </div>
-                
+                </div>                
             </div>
         </section>
         <section class="events">
@@ -308,7 +315,7 @@
                             <div class="when">
                                 <p class="info_parag">Conference | <span class="accent_parag">10:30 - 18:00</span></p>
                             </div>
-                            <a href="#" class="cart__btn btn__primary">More</a>
+                            <a href="#join" class="cart__btn btn__primary">More</a>
                         </div>
                     </div>
                     <div class="cart">
@@ -325,7 +332,7 @@
                             <div class="when">
                                 <p class="info_parag">Literary soiree | <span class="accent_parag">18:00 - 22:00</span></p>
                             </div>
-                            <a href="#" class="cart__btn btn__primary">More</a>
+                            <a href="#join" class="cart__btn btn__primary">More</a>
                         </div>     
                     </div>
                     <div class="cart">
@@ -342,13 +349,13 @@
                             <div class="when">
                                 <p class="info_parag">Lecture | <span class="accent_parag">10:30 - 14:00</span></p>
                             </div>
-                            <a href="#" class="cart__btn btn__primary">More</a>
+                            <a href="#join" class="cart__btn btn__primary">More</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="blog">
+        <section id="blog" class="blog">
             <div class="blog__container container">
                 <p class="blog__title title">Blog</p>
                 <div class="blog__intro">
@@ -387,7 +394,7 @@
                 </div>
             </div>
         </section>
-        <section class="join">
+        <section id="join" class="join">
             <div class="join__container container">
                 <div class="join__intro">
                     <h2 class="join__larg_text larg_text">Get Chapter One for Free</h2>
@@ -399,7 +406,7 @@
                 </form>
             </div>
         </section>
-       <section class="contacts">
+       <section id="contacts" class="contacts">
             <div class="contacts__container container">
                 <p class="contacts__title title">Contacts</p>
                 <div class="contacts__intro">
@@ -438,7 +445,7 @@
                             <p class="main_parag cart_title">Want to Leave a Request?</p>
                             <span class="h_line cart_divider"></span>
                             <p>Fill out the contact form</p>
-                            <a href="#"><p class="accent_parag more-info">Contact Me <i class="fa-solid fa-arrow-right"></i></p></a>
+                            <a href="#join"><p class="accent_parag more-info">Contact Me <i class="fa-solid fa-arrow-right"></i></p></a>
                         </div>
                     </div>
                 </div>
@@ -452,14 +459,16 @@
                 <p class="footer__parag">Author of best-selling marketing books.</p>
             </div>
             <div class="footer__links">
-                <a href="#">About me</a>
-                <a href="#">Books</a>
-                <a href="#">Blog</a>
-                <a href="#">Press</a>
-                <a href="#">Contacts</a>
+                <a href="#about">About me</a>
+                <a href="#books">Books</a>
+                <a href="#blog">Blog</a>
+                <a href="#press">Press</a>
+                <a href="#contacts">Contacts</a>
             </div>
             <div class="footer__copyright">
-                <p class="copyright footer__parag"><i class="fa-regular fa-copyright"></i> Created by | All rights Reserved</p>
+                <p class="copyright footer__parag"><i class="fa-regular fa-copyright"></i> 2023 | <br> Original content 
+                    <br><a class="footer__parag" href="https://writer.weblium.site/"> https://writer.weblium.site </a>
+                    <br> Website assembled by Farzam</p> 
             </div>
         </div>
     </footer>

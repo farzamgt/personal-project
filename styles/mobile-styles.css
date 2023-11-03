@@ -28,8 +28,7 @@ nav {
     margin: 0 5%;
     width: 90%;
     height: 0;
-    background-color: var(--bg-light-color);
-    backdrop-filter: blur(500px);
+    background-color: var(--bg-menu-color);
     overflow: hidden;  
     transition: height 0.2s cubic-bezier(0.23, 1, 0.320, 1);  
     z-index: 99;
@@ -252,22 +251,63 @@ h1 {
     margin: 0 0 20px 0;
     line-height: 36px;
 }
+.tender__top_box {
+    margin-bottom: 50px;
+}
+.carousel_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid var(--bg-light-color);
+}
+.carousel_btn {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: var(--text-dark-color);
+    font-size: x-large;
+}
+.carousel_btn:hover {
+    color: var(--primary-color);
+}
+.left_btn {
+    left: -25px;
+}
+.right_btn {
+    right: -25px;
+}
 .tender__links_card {
-    display: inline-flex;
-    overflow: scroll;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    overflow: hidden;
     width: 100%;
     height: 350px;
-    margin-top: 40px;
-    padding: 0;
-    border: solid .5px var(--secondary-color);
+    padding: 10px;
+    border: none;
+    scroll-behavior: smooth;
 }
 .tender__links_card .card {
     display: grid;
     min-width: 245px;
-    height: 85%;
-    margin: 25px;
-    padding: 20px;
+    height: 100%;
+    padding: 10px;
     border: solid 2px var(--primary-color);
+}
+.tender__links_card.dragging {
+    scroll-behavior: auto;
+}
+.tender__links_card.dragging .card {
+    cursor: grab;
+    user-select: none;
 }
 .tender__links_card .card .icon{
     color: var(--text-light-color);
@@ -436,7 +476,7 @@ h1 {
 #emailField {
     padding: 15px 40px;
     border: none;
-    background-color: var(--warm-light-color);
+    background-color: var(--light-color);
     font-size: 15px;
     margin: 25px auto;
     width: 100%;
