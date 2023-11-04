@@ -14,7 +14,7 @@ toggleBtn.onclick = function () {
 
 // Carousel
 const carousel = document.querySelector(".tender__links_card");
-const carouselBtns = document.querySelectorAll(".carousel_btn i");
+const carouselBtns = document.querySelectorAll(".carousel_btn");
 const firstCardWidth = carousel.querySelector(".card").offsetWidth + 20;
 
 let isDragging = false, startX, startScrollLeft;
