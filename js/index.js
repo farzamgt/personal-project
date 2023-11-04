@@ -42,9 +42,12 @@ const dragStop = () => {
     carousel.classList.remove("dragging");
 }
 
+
 carousel.addEventListener("mousedown", dragStart);
 carousel.addEventListener("mousemove", dragging);
 document.addEventListener("mouseup", dragStop);
 
-
+carousel.addEventListener("touchstart", touchStart);
+carousel.addEventListener("touchmove", touching);
+document.addEventListener("touchend", touchEnd);
 
